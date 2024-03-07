@@ -60,7 +60,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>MUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@VvipCila.</b>",
+    "<b>Hello {first}</b>\n\n<b>MUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@etminvvipku</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -70,7 +70,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@VvipCila</b>",
+    "<b>Hello {first}\n\nMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@etminvvipku</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
