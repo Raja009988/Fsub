@@ -14,16 +14,16 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "15890589"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "27fe60ebafe8a74117bfae10407925c7")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "akwcuy")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -60,7 +60,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
+    "<b>Hello {first}</b>\n\n<b>MUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@VvipCila.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -70,7 +70,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>Hello {first}\n\nMUMPUNG LAGI PROMO LIST GROUB PRIVAT VIP ASUPAN TANPA LINK/BOT https://t.me/ROOMVIIPKU/10\n\n>VIP RANDOM 50K\n>VIP OME TV 35K\n>VIP BOCHIEL 35K\n>VIP HIJAB 35K\n>VIP LIVE RECORD 35K\n\n❏ PAYMENT\n├• DANA\n├• GOPAY\n\nMINAT JOIN? LANGSUNG HUB\n╰►@VvipCila</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
